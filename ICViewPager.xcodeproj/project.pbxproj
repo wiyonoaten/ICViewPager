@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DF4ECD21874327000A18606 /* libICViewPagerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF4ECCA187431E300A18606 /* libICViewPagerLib.a */; };
 		7C115E011816DED1000BCE63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C115E001816DED1000BCE63 /* Images.xcassets */; };
 		7CEC17A917DA1EC000E4A439 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC17A817DA1EC000E4A439 /* iPad.storyboard */; };
 		7CF3D65517CE32E40021036A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF3D65417CE32E40021036A /* UIKit.framework */; };
@@ -16,13 +17,30 @@
 		7CF3D66117CE32E40021036A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D66017CE32E40021036A /* main.m */; };
 		7CF3D66517CE32E40021036A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D66417CE32E40021036A /* AppDelegate.m */; };
 		7CF3D67617CE336E0021036A /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF3D67817CE336E0021036A /* Localization.strings */; };
-		7CF3D67E17CE33E10021036A /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D67D17CE33E10021036A /* ViewPagerController.m */; };
 		7CF3D68117CE33EC0021036A /* HostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D68017CE33EC0021036A /* HostViewController.m */; };
 		7CF3D68217CE35500021036A /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF3D67117CE332F0021036A /* iPhone.storyboard */; };
 		7CF3D68517CE3F5B0021036A /* ContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D68417CE3F5B0021036A /* ContentViewController.m */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2DF4ECC9187431E300A18606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 2DF4EC9B187431E100A18606;
+			remoteInfo = ICViewPagerLib;
+		};
+		2DF4ECD01874326500A18606 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF4EC9A187431E100A18606;
+			remoteInfo = ICViewPagerLib;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ICViewPagerLib.xcodeproj; path = ICViewPagerLib/ICViewPagerLib.xcodeproj; sourceTree = "<group>"; };
 		7C115E001816DED1000BCE63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CEC17A817DA1EC000E4A439 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
 		7CF3D65117CE32E40021036A /* ICViewPager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICViewPager.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -39,8 +57,6 @@
 		7CF3D67317CE335B0021036A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7CF3D67717CE336E0021036A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
 		7CF3D67917CE336F0021036A /* tr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = tr; path = tr.lproj/Localization.strings; sourceTree = "<group>"; };
-		7CF3D67C17CE33E10021036A /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
-		7CF3D67D17CE33E10021036A /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
 		7CF3D67F17CE33EC0021036A /* HostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HostViewController.h; sourceTree = "<group>"; };
 		7CF3D68017CE33EC0021036A /* HostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HostViewController.m; sourceTree = "<group>"; };
 		7CF3D68317CE3F5B0021036A /* ContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContentViewController.h; sourceTree = "<group>"; };
@@ -52,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DF4ECD21874327000A18606 /* libICViewPagerLib.a in Frameworks */,
 				7CF3D65517CE32E40021036A /* UIKit.framework in Frameworks */,
 				7CF3D65717CE32E40021036A /* Foundation.framework in Frameworks */,
 				7CF3D65917CE32E40021036A /* CoreGraphics.framework in Frameworks */,
@@ -61,9 +78,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DF4ECC5187431E100A18606 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DF4ECCA187431E300A18606 /* libICViewPagerLib.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		7CF3D64817CE32E40021036A = {
 			isa = PBXGroup;
 			children = (
+				2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */,
 				7CF3D65A17CE32E40021036A /* ICViewPager */,
 				7CF3D65317CE32E40021036A /* Frameworks */,
 				7CF3D65217CE32E40021036A /* Products */,
@@ -95,7 +121,6 @@
 				7CF3D66417CE32E40021036A /* AppDelegate.m */,
 				7CF3D67117CE332F0021036A /* iPhone.storyboard */,
 				7CEC17A817DA1EC000E4A439 /* iPad.storyboard */,
-				7CF3D67B17CE33C80021036A /* ICViewPager */,
 				7CF3D67A17CE33C80021036A /* Controller */,
 				7C115E001816DED1000BCE63 /* Images.xcassets */,
 				7CF3D65B17CE32E40021036A /* Supporting Files */,
@@ -126,15 +151,6 @@
 			path = Controller;
 			sourceTree = "<group>";
 		};
-		7CF3D67B17CE33C80021036A /* ICViewPager */ = {
-			isa = PBXGroup;
-			children = (
-				7CF3D67C17CE33E10021036A /* ViewPagerController.h */,
-				7CF3D67D17CE33E10021036A /* ViewPagerController.m */,
-			);
-			path = ICViewPager;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -149,6 +165,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				2DF4ECD11874326500A18606 /* PBXTargetDependency */,
 			);
 			name = ICViewPager;
 			productName = ICViewPager;
@@ -175,12 +192,28 @@
 			mainGroup = 7CF3D64817CE32E40021036A;
 			productRefGroup = 7CF3D65217CE32E40021036A /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2DF4ECC5187431E100A18606 /* Products */;
+					ProjectRef = 2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				7CF3D65017CE32E40021036A /* ICViewPager */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2DF4ECCA187431E300A18606 /* libICViewPagerLib.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libICViewPagerLib.a;
+			remoteRef = 2DF4ECC9187431E300A18606 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		7CF3D64F17CE32E40021036A /* Resources */ = {
@@ -204,13 +237,20 @@
 			files = (
 				7CF3D66117CE32E40021036A /* main.m in Sources */,
 				7CF3D66517CE32E40021036A /* AppDelegate.m in Sources */,
-				7CF3D67E17CE33E10021036A /* ViewPagerController.m in Sources */,
 				7CF3D68117CE33EC0021036A /* HostViewController.m in Sources */,
 				7CF3D68517CE3F5B0021036A /* ContentViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DF4ECD11874326500A18606 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ICViewPagerLib;
+			targetProxy = 2DF4ECD01874326500A18606 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7CF3D65D17CE32E40021036A /* InfoPlist.strings */ = {
@@ -297,8 +337,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICViewPager/ICViewPager-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ICViewPagerLib/**",
+				);
 				INFOPLIST_FILE = "ICViewPager/ICViewPager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,8 +357,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ICViewPager/ICViewPager-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ICViewPagerLib/**",
+				);
 				INFOPLIST_FILE = "ICViewPager/ICViewPager-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
