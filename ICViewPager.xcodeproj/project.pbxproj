@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D38AD841879BFD50055A627 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38AD7B1879BFD50055A627 /* MainViewController.xib */; };
+		2D38AD861879BFD50055A627 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38AD7E1879BFD50055A627 /* RootViewController.xib */; };
+		2D38AD881879BFD50055A627 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38AD811879BFD50055A627 /* SplashViewController.xib */; };
+		2D38AD8D1879C0230055A627 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CF3D66017CE32E40021036A /* main.m */; };
+		2D38AD8E1879C0230055A627 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38AD7D1879BFD50055A627 /* RootViewController.m */; };
+		2D38AD8F1879C0230055A627 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38AD7A1879BFD50055A627 /* MainViewController.m */; };
+		2D38AD901879C0230055A627 /* SplashViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38AD801879BFD50055A627 /* SplashViewController.m */; };
+		2D38AD941879C0230055A627 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D38AD781879BFD50055A627 /* AppDelegate.m */; };
+		2D38AD961879C0230055A627 /* libICViewPagerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF4ECCA187431E300A18606 /* libICViewPagerLib.a */; };
+		2D38AD971879C0230055A627 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF3D65417CE32E40021036A /* UIKit.framework */; };
+		2D38AD981879C0230055A627 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF3D65617CE32E40021036A /* Foundation.framework */; };
+		2D38AD991879C0230055A627 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CF3D65817CE32E40021036A /* CoreGraphics.framework */; };
+		2D38AD9B1879C0230055A627 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF3D65D17CE32E40021036A /* InfoPlist.strings */; };
+		2D38AD9C1879C0230055A627 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38AD7B1879BFD50055A627 /* MainViewController.xib */; };
+		2D38AD9D1879C0230055A627 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C115E001816DED1000BCE63 /* Images.xcassets */; };
+		2D38AD9E1879C0230055A627 /* SplashViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38AD811879BFD50055A627 /* SplashViewController.xib */; };
+		2D38AD9F1879C0230055A627 /* iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CF3D67117CE332F0021036A /* iPhone.storyboard */; };
+		2D38ADA01879C0230055A627 /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D38AD7E1879BFD50055A627 /* RootViewController.xib */; };
+		2D38ADA11879C0230055A627 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC17A817DA1EC000E4A439 /* iPad.storyboard */; };
+		2D38ADA21879C0230055A627 /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CF3D67817CE336E0021036A /* Localization.strings */; };
 		2DF4ECD21874327000A18606 /* libICViewPagerLib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF4ECCA187431E300A18606 /* libICViewPagerLib.a */; };
 		7C115E011816DED1000BCE63 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C115E001816DED1000BCE63 /* Images.xcassets */; };
 		7CEC17A917DA1EC000E4A439 /* iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CEC17A817DA1EC000E4A439 /* iPad.storyboard */; };
@@ -23,6 +43,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		2D38AD8B1879C0230055A627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DF4EC9A187431E100A18606;
+			remoteInfo = ICViewPagerLib;
+		};
 		2DF4ECC9187431E300A18606 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */;
@@ -40,6 +67,19 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D38AD771879BFD50055A627 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = NavigationBasedTestApp/AppDelegate.h; sourceTree = "<group>"; };
+		2D38AD781879BFD50055A627 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = NavigationBasedTestApp/AppDelegate.m; sourceTree = "<group>"; };
+		2D38AD791879BFD50055A627 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MainViewController.h; path = NavigationBasedTestApp/MainViewController.h; sourceTree = "<group>"; };
+		2D38AD7A1879BFD50055A627 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MainViewController.m; path = NavigationBasedTestApp/MainViewController.m; sourceTree = "<group>"; };
+		2D38AD7B1879BFD50055A627 /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MainViewController.xib; path = NavigationBasedTestApp/MainViewController.xib; sourceTree = "<group>"; };
+		2D38AD7C1879BFD50055A627 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RootViewController.h; path = NavigationBasedTestApp/RootViewController.h; sourceTree = "<group>"; };
+		2D38AD7D1879BFD50055A627 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RootViewController.m; path = NavigationBasedTestApp/RootViewController.m; sourceTree = "<group>"; };
+		2D38AD7E1879BFD50055A627 /* RootViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = RootViewController.xib; path = NavigationBasedTestApp/RootViewController.xib; sourceTree = "<group>"; };
+		2D38AD7F1879BFD50055A627 /* SplashViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SplashViewController.h; path = NavigationBasedTestApp/SplashViewController.h; sourceTree = "<group>"; };
+		2D38AD801879BFD50055A627 /* SplashViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SplashViewController.m; path = NavigationBasedTestApp/SplashViewController.m; sourceTree = "<group>"; };
+		2D38AD811879BFD50055A627 /* SplashViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SplashViewController.xib; path = NavigationBasedTestApp/SplashViewController.xib; sourceTree = "<group>"; };
+		2D38ADA61879C0230055A627 /* ICViewPager_NavigationBasedTestApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ICViewPager_NavigationBasedTestApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D38ADA71879C0230055A627 /* ICViewPager_NavigationBasedTestApp.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = ICViewPager_NavigationBasedTestApp.plist; path = "/Users/Zinc/Projects/svn_shazamteam/code/mobile/windowsphone/ShazamDotNetCrossPlatHack/Shazam.iOS/Libraries/monsieurje-ICViewPager/ICViewPager_NavigationBasedTestApp.plist"; sourceTree = "<absolute>"; };
 		2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ICViewPagerLib.xcodeproj; path = ICViewPagerLib/ICViewPagerLib.xcodeproj; sourceTree = "<group>"; };
 		7C115E001816DED1000BCE63 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		7CEC17A817DA1EC000E4A439 /* iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = iPad.storyboard; sourceTree = "<group>"; };
@@ -49,7 +89,7 @@
 		7CF3D65817CE32E40021036A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		7CF3D65C17CE32E40021036A /* ICViewPager-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ICViewPager-Info.plist"; sourceTree = "<group>"; };
 		7CF3D65E17CE32E40021036A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		7CF3D66017CE32E40021036A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CF3D66017CE32E40021036A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ICViewPager/main.m; sourceTree = "<group>"; };
 		7CF3D66217CE32E40021036A /* ICViewPager-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICViewPager-Prefix.pch"; sourceTree = "<group>"; };
 		7CF3D66317CE32E40021036A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7CF3D66417CE32E40021036A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -64,6 +104,17 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2D38AD951879C0230055A627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38AD961879C0230055A627 /* libICViewPagerLib.a in Frameworks */,
+				2D38AD971879C0230055A627 /* UIKit.framework in Frameworks */,
+				2D38AD981879C0230055A627 /* Foundation.framework in Frameworks */,
+				2D38AD991879C0230055A627 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CF3D64E17CE32E40021036A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -78,6 +129,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D38AD761879BFCA0055A627 /* NavigationBasedTestApp */ = {
+			isa = PBXGroup;
+			children = (
+				2D38ADA71879C0230055A627 /* ICViewPager_NavigationBasedTestApp.plist */,
+				7CF3D66017CE32E40021036A /* main.m */,
+				2D38AD771879BFD50055A627 /* AppDelegate.h */,
+				2D38AD781879BFD50055A627 /* AppDelegate.m */,
+				2D38AD791879BFD50055A627 /* MainViewController.h */,
+				2D38AD7A1879BFD50055A627 /* MainViewController.m */,
+				2D38AD7B1879BFD50055A627 /* MainViewController.xib */,
+				2D38AD7C1879BFD50055A627 /* RootViewController.h */,
+				2D38AD7D1879BFD50055A627 /* RootViewController.m */,
+				2D38AD7E1879BFD50055A627 /* RootViewController.xib */,
+				2D38AD7F1879BFD50055A627 /* SplashViewController.h */,
+				2D38AD801879BFD50055A627 /* SplashViewController.m */,
+				2D38AD811879BFD50055A627 /* SplashViewController.xib */,
+			);
+			name = NavigationBasedTestApp;
+			sourceTree = "<group>";
+		};
 		2DF4ECC5187431E100A18606 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -89,6 +160,7 @@
 		7CF3D64817CE32E40021036A = {
 			isa = PBXGroup;
 			children = (
+				2D38AD761879BFCA0055A627 /* NavigationBasedTestApp */,
 				2DF4ECC4187431E100A18606 /* ICViewPagerLib.xcodeproj */,
 				7CF3D65A17CE32E40021036A /* ICViewPager */,
 				7CF3D65317CE32E40021036A /* Frameworks */,
@@ -100,6 +172,7 @@
 			isa = PBXGroup;
 			children = (
 				7CF3D65117CE32E40021036A /* ICViewPager.app */,
+				2D38ADA61879C0230055A627 /* ICViewPager_NavigationBasedTestApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -133,7 +206,6 @@
 			children = (
 				7CF3D65C17CE32E40021036A /* ICViewPager-Info.plist */,
 				7CF3D65D17CE32E40021036A /* InfoPlist.strings */,
-				7CF3D66017CE32E40021036A /* main.m */,
 				7CF3D66217CE32E40021036A /* ICViewPager-Prefix.pch */,
 				7CF3D67817CE336E0021036A /* Localization.strings */,
 			);
@@ -154,6 +226,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		2D38AD891879C0230055A627 /* NavigationBasedTestApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D38ADA31879C0230055A627 /* Build configuration list for PBXNativeTarget "NavigationBasedTestApp" */;
+			buildPhases = (
+				2D38AD8C1879C0230055A627 /* Sources */,
+				2D38AD951879C0230055A627 /* Frameworks */,
+				2D38AD9A1879C0230055A627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D38AD8A1879C0230055A627 /* PBXTargetDependency */,
+			);
+			name = NavigationBasedTestApp;
+			productName = ICViewPager;
+			productReference = 2D38ADA61879C0230055A627 /* ICViewPager_NavigationBasedTestApp.app */;
+			productType = "com.apple.product-type.application";
+		};
 		7CF3D65017CE32E40021036A /* ICViewPager */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7CF3D66E17CE32E40021036A /* Build configuration list for PBXNativeTarget "ICViewPager" */;
@@ -201,6 +291,7 @@
 			projectRoot = "";
 			targets = (
 				7CF3D65017CE32E40021036A /* ICViewPager */,
+				2D38AD891879C0230055A627 /* NavigationBasedTestApp */,
 			);
 		};
 /* End PBXProject section */
@@ -216,13 +307,31 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2D38AD9A1879C0230055A627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38AD9B1879C0230055A627 /* InfoPlist.strings in Resources */,
+				2D38AD9C1879C0230055A627 /* MainViewController.xib in Resources */,
+				2D38AD9D1879C0230055A627 /* Images.xcassets in Resources */,
+				2D38AD9E1879C0230055A627 /* SplashViewController.xib in Resources */,
+				2D38AD9F1879C0230055A627 /* iPhone.storyboard in Resources */,
+				2D38ADA01879C0230055A627 /* RootViewController.xib in Resources */,
+				2D38ADA11879C0230055A627 /* iPad.storyboard in Resources */,
+				2D38ADA21879C0230055A627 /* Localization.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CF3D64F17CE32E40021036A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7CF3D65F17CE32E40021036A /* InfoPlist.strings in Resources */,
+				2D38AD841879BFD50055A627 /* MainViewController.xib in Resources */,
 				7C115E011816DED1000BCE63 /* Images.xcassets in Resources */,
+				2D38AD881879BFD50055A627 /* SplashViewController.xib in Resources */,
 				7CF3D68217CE35500021036A /* iPhone.storyboard in Resources */,
+				2D38AD861879BFD50055A627 /* RootViewController.xib in Resources */,
 				7CEC17A917DA1EC000E4A439 /* iPad.storyboard in Resources */,
 				7CF3D67617CE336E0021036A /* Localization.strings in Resources */,
 			);
@@ -231,6 +340,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2D38AD8C1879C0230055A627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D38AD8D1879C0230055A627 /* main.m in Sources */,
+				2D38AD8E1879C0230055A627 /* RootViewController.m in Sources */,
+				2D38AD8F1879C0230055A627 /* MainViewController.m in Sources */,
+				2D38AD901879C0230055A627 /* SplashViewController.m in Sources */,
+				2D38AD941879C0230055A627 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7CF3D64D17CE32E40021036A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +366,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		2D38AD8A1879C0230055A627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ICViewPagerLib;
+			targetProxy = 2D38AD8B1879C0230055A627 /* PBXContainerItemProxy */;
+		};
 		2DF4ECD11874326500A18606 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ICViewPagerLib;
@@ -274,6 +400,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		2D38ADA41879C0230055A627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICViewPager/ICViewPager-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ICViewPagerLib/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ICViewPager_NavigationBasedTestApp.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = ICViewPager_NavigationBasedTestApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2D38ADA51879C0230055A627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ICViewPager/ICViewPager-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(PROJECT_DIR)/ICViewPagerLib/**",
+				);
+				INFOPLIST_FILE = "$(SRCROOT)/ICViewPager_NavigationBasedTestApp.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = ICViewPager_NavigationBasedTestApp;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
 		7CF3D66C17CE32E40021036A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -375,6 +541,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2D38ADA31879C0230055A627 /* Build configuration list for PBXNativeTarget "NavigationBasedTestApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D38ADA41879C0230055A627 /* Debug */,
+				2D38ADA51879C0230055A627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		7CF3D64C17CE32E40021036A /* Build configuration list for PBXProject "ICViewPager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

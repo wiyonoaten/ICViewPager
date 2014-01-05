@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D38AD611879BEAA0055A627 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 2D38AD601879BEAA0055A627 /* Makefile */; };
 		2DF4EC9F187431E100A18606 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DF4EC9E187431E100A18606 /* Foundation.framework */; };
 		2DF4ECCF1874321A00A18606 /* ViewPagerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4ECCE1874321A00A18606 /* ViewPagerController.m */; };
-		2DF4ECD61874333600A18606 /* Makefile in Sources */ = {isa = PBXBuildFile; fileRef = 2DF4ECD51874333600A18606 /* Makefile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +25,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2D38AD601879BEAA0055A627 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		2DF4EC9B187431E100A18606 /* libICViewPagerLib.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libICViewPagerLib.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DF4EC9E187431E100A18606 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		2DF4ECA2187431E100A18606 /* ICViewPagerLib-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ICViewPagerLib-Prefix.pch"; sourceTree = "<group>"; };
@@ -32,7 +33,6 @@
 		2DF4ECAF187431E100A18606 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		2DF4ECCD1874321A00A18606 /* ViewPagerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewPagerController.h; sourceTree = "<group>"; };
 		2DF4ECCE1874321A00A18606 /* ViewPagerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewPagerController.m; sourceTree = "<group>"; };
-		2DF4ECD51874333600A18606 /* Makefile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +50,7 @@
 		2DF4EC92187431E100A18606 = {
 			isa = PBXGroup;
 			children = (
-				2DF4ECD51874333600A18606 /* Makefile */,
+				2D38AD601879BEAA0055A627 /* Makefile */,
 				2DF4ECA0187431E100A18606 /* ICViewPagerLib */,
 				2DF4EC9D187431E100A18606 /* Frameworks */,
 				2DF4EC9C187431E100A18606 /* Products */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DF4ECD61874333600A18606 /* Makefile in Sources */,
+				2D38AD611879BEAA0055A627 /* Makefile in Sources */,
 				2DF4ECCF1874321A00A18606 /* ViewPagerController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +265,7 @@
 				2DF4ECC0187431E100A18606 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
